@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+  }
+
+  .container {
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    width: 325px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  .container img {
+    margin-bottom: 25px;
+    width: 325px;
+  }
+  .container h1 {
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f2f56;
+  }
+  .container p {
+    text-align: center;
+    font-weight: 500;
+    margin: 0 25px;
+    color: #7280a7;
+    line-height: 1.5em;
+  }
+
+  .button1 {
+    background-color: #f5f7ff;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+  }
+  .button1 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+  }
+  .button1 p {
+    text-align: center;
+    font-weight: 500;
+    color: #7280a7;
+    text-align: justify;
+  }
+  .button1 p span {
+    color: #1f2f56;
+    font-weight: 700;
+  }
+  .button1 p a {
+    float: right;
+    margin-left: 15px;
+  }
+  .button1 p a:hover {
+    opacity: 0.5;
+  }
+
+  .button2 {
+    background-color: #3829e0;
+    border-radius: 15px;
+    margin: 25px;
+  }
+  .button2 p {
+    color: #fff;
+    padding: 15px;
+  }
+
+  .button2:hover {
+    opacity: 0.5;
+  }
+
+  #cancel {
+    margin: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #7280a7;
+  }
+
+  #cancel:hover {
+    color: #1f2f56;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  body {
+    background: url("../images/pattern-background-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+  }
+
+  .container {
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  .container img {
+    margin-bottom: 25px;
+    width: 350px;
+  }
+  .container h1 {
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f2f56;
+  }
+  .container p {
+    text-align: center;
+    font-weight: 500;
+    margin: 0 25px;
+    color: #7280a7;
+    line-height: 1.5em;
+  }
+
+  .button1 {
+    background-color: #f5f7ff;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+  }
+  .button1 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+  }
+  .button1 p {
+    text-align: center;
+    font-weight: 500;
+    color: #7280a7;
+    text-align: justify;
+  }
+  .button1 p span {
+    color: #1f2f56;
+    font-weight: 700;
+  }
+  .button1 p a {
+    float: right;
+    margin-left: 15px;
+  }
+  .button1 p a:hover {
+    opacity: 0.5;
+  }
+
+  .button2 {
+    background-color: #3829e0;
+    border-radius: 15px;
+    margin: 25px;
+  }
+  .button2 p {
+    color: #fff;
+    padding: 15px;
+  }
+
+  .button2:hover {
+    opacity: 0.5;
+  }
+
+  #cancel {
+    margin: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #7280a7;
+  }
+
+  #cancel:hover {
+    color: #1f2f56;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

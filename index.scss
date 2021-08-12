@@ -154,16 +154,18 @@
         border-radius: 15px;
         margin: 25px;
         padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
 
         img{
             width: 50px;
             height: 50px;
-            float: left;
-            margin-right: 15px;
+            margin: 10px;
         }
 
         p{
-            text-align: center;
             font-weight: 500;
             color: $desaturatedBlue;
             text-align: justify;
@@ -188,6 +190,7 @@
         background-color: $brightBlue;
         border-radius: 15px;
         margin: 25px;
+        cursor: pointer;
         p{
             color: #fff;
             padding: 15px;
@@ -203,6 +206,7 @@
         text-align: center;
         font-weight: 700;
         color: $desaturatedBlue;
+        cursor: pointer;
     }
 
     #cancel:hover{
